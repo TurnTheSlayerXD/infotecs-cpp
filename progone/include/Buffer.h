@@ -15,6 +15,7 @@ template <typename T> class Buffer {
   mutable std::mutex mut_;
 
 public:
+
   void add(const T &data);
 
   std::condition_variable &get_cv();

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/progtwo.dir/src/main.cpp.o -o progtwo 

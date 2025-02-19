@@ -1,3 +1,0 @@
-/home/andrew/infotecs-cpp/progtwo/build/CMakeFiles/progtwo.dir
-/home/andrew/infotecs-cpp/progtwo/build/CMakeFiles/edit_cache.dir
-/home/andrew/infotecs-cpp/progtwo/build/CMakeFiles/rebuild_cache.dir
