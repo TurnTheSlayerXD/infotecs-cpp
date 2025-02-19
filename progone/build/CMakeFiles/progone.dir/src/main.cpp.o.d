@@ -217,4 +217,13 @@ CMakeFiles/progone.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
  /home/andrew/infotecs-cpp/progone/include/CharCount.h \
- /usr/include/c++/12/charconv
+ /usr/include/c++/12/charconv /usr/include/x86_64-linux-gnu/sys/ipc.h \
+ /usr/include/x86_64-linux-gnu/bits/ipctypes.h \
+ /usr/include/x86_64-linux-gnu/bits/ipc.h \
+ /usr/include/x86_64-linux-gnu/bits/ipc-perm.h \
+ /usr/include/x86_64-linux-gnu/sys/msg.h \
+ /usr/include/x86_64-linux-gnu/bits/msq.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_msqid_ds.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_msqid64_ds.h \
+ /usr/include/c++/12/cstring /usr/include/string.h /usr/include/strings.h \
+ /home/andrew/infotecs-cpp/progone/include/ipc_interaction.h

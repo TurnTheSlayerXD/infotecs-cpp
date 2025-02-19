@@ -275,8 +275,34 @@ CMakeFiles/progone.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progone/src/mai
   /usr/include/c++/12/bits/stl_bvector.h \
   /usr/include/c++/12/bits/vector.tcc \
   /home/andrew/infotecs-cpp/progone/include/CharCount.h \
-  /usr/include/c++/12/charconv
+  /usr/include/c++/12/charconv \
+  /usr/include/x86_64-linux-gnu/sys/ipc.h \
+  /usr/include/x86_64-linux-gnu/bits/ipctypes.h \
+  /usr/include/x86_64-linux-gnu/bits/ipc.h \
+  /usr/include/x86_64-linux-gnu/bits/ipc-perm.h \
+  /usr/include/x86_64-linux-gnu/sys/msg.h \
+  /usr/include/x86_64-linux-gnu/bits/msq.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_msqid_ds.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_msqid64_ds.h \
+  /usr/include/c++/12/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /home/andrew/infotecs-cpp/progone/include/ipc_interaction.h
 
+
+/home/andrew/infotecs-cpp/progone/include/ipc_interaction.h:
+
+/usr/include/strings.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_msqid64_ds.h:
+
+/usr/include/x86_64-linux-gnu/bits/msq.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipc.h:
+
+/usr/include/x86_64-linux-gnu/sys/ipc.h:
 
 /home/andrew/infotecs-cpp/progone/include/CharCount.h:
 
@@ -414,6 +440,8 @@ CMakeFiles/progone.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progone/src/mai
 
 /usr/include/c++/12/bits/semaphore_base.h:
 
+/usr/include/x86_64-linux-gnu/bits/ipctypes.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -429,6 +457,8 @@ CMakeFiles/progone.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progone/src/mai
 /usr/include/c++/12/vector:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/sys/msg.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -470,6 +500,8 @@ CMakeFiles/progone.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progone/src/mai
 
 /usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
+/usr/include/c++/12/cstring:
+
 /usr/include/ctype.h:
 
 /usr/include/c++/12/pstl/execution_defs.h:
@@ -482,9 +514,13 @@ CMakeFiles/progone.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progone/src/mai
 
 /usr/include/c++/12/bits/stl_function.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_msqid_ds.h:
+
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
 
 /usr/include/c++/12/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipc-perm.h:
 
 /usr/include/c++/12/stop_token:
 

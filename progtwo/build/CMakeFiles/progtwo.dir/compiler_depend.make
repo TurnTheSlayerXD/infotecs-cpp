@@ -221,12 +221,40 @@ CMakeFiles/progtwo.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progtwo/src/mai
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
-  /usr/include/c++/12/bits/vector.tcc
+  /usr/include/c++/12/bits/vector.tcc \
+  /home/andrew/infotecs-cpp/progtwo/include/ipc_interaction.h \
+  /usr/include/x86_64-linux-gnu/sys/ipc.h \
+  /usr/include/x86_64-linux-gnu/bits/ipctypes.h \
+  /usr/include/x86_64-linux-gnu/bits/ipc.h \
+  /usr/include/x86_64-linux-gnu/bits/ipc-perm.h \
+  /usr/include/x86_64-linux-gnu/sys/msg.h \
+  /usr/include/x86_64-linux-gnu/bits/msq.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_msqid_ds.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_msqid64_ds.h \
+  /usr/include/c++/12/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h
 
+
+/usr/include/c++/12/cstring:
+
+/usr/include/x86_64-linux-gnu/sys/msg.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipc-perm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_msqid_ds.h:
+
+/usr/include/x86_64-linux-gnu/sys/ipc.h:
+
+/home/andrew/infotecs-cpp/progtwo/include/ipc_interaction.h:
 
 /usr/include/c++/12/bits/stl_bvector.h:
 
 /usr/include/c++/12/bits/stl_vector.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/msq.h:
 
 /usr/include/c++/12/bits/stl_uninitialized.h:
 
@@ -255,6 +283,8 @@ CMakeFiles/progtwo.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progtwo/src/mai
 /usr/include/c++/12/bits/locale_facets.h:
 
 /usr/include/c++/12/bits/streambuf.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_msqid64_ds.h:
 
 /usr/include/c++/12/streambuf:
 
@@ -442,6 +472,8 @@ CMakeFiles/progtwo.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progtwo/src/mai
 
 /usr/include/features.h:
 
+/usr/include/x86_64-linux-gnu/bits/ipc.h:
+
 /usr/include/c++/12/bits/concept_check.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
@@ -548,6 +580,8 @@ CMakeFiles/progtwo.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progtwo/src/mai
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/ipctypes.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/endian.h:
@@ -587,6 +621,8 @@ CMakeFiles/progtwo.dir/src/main.cpp.o: /home/andrew/infotecs-cpp/progtwo/src/mai
 /usr/include/c++/12/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/strings.h:
 
 /usr/include/c++/12/string:
 
