@@ -1,4 +1,3 @@
-#include "Buffer.h"
 #include <algorithm>
 #include <array>
 #include <cassert>
@@ -8,22 +7,11 @@
 #include <ranges>
 #include <thread>
 
+#include "Buffer.h"
+
+#include "CharCount.h"
+
 constexpr int alp_size = 52;
-
-struct CharCount {
-  char letter;
-  int count;
-
-  CharCount(char letter, int count) : letter(letter), count(count) {}
-
-  CharCount(const CharCount &o) = default;
-  CharCount(CharCount &&o) noexcept = default;
-};
-
-std::ostream &operator<<(std::ostream &str, const CharCount &d) {
-  str << d.letter << " " << d.count << "\n";
-  return str;
-}
 
 using data_type = std::vector<CharCount>;
 
@@ -88,6 +76,7 @@ void thread_two(Buffer<data_type> &buf) {
     for (const auto &d : data) {
       std::cout << d;
     }
+    std::cout << "\n";
   }
 }
 

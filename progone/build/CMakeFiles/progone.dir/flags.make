@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/andrew/cpp-internship/include
+CXX_INCLUDES = -I/home/andrew/infotecs-cpp/progone/include
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -Wall -Wextra -Wpedantic -std=gnu++20
 

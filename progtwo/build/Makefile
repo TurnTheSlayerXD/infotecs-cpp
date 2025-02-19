@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/infotecs-cpp/progone
+CMAKE_SOURCE_DIR = /home/andrew/infotecs-cpp/progtwo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/infotecs-cpp/progone/build
+CMAKE_BINARY_DIR = /home/andrew/infotecs-cpp/progtwo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progone/build/CMakeFiles /home/andrew/infotecs-cpp/progone/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progtwo/build/CMakeFiles /home/andrew/infotecs-cpp/progtwo/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progone/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progtwo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named progone
+# Target rules for targets named progtwo
 
 # Build rule for target.
-progone: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 progone
-.PHONY : progone
+progtwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 progtwo
+.PHONY : progtwo
 
 # fast build rule for target.
-progone/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/build
-.PHONY : progone/fast
+progtwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/build
+.PHONY : progtwo/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... progone"
+	@echo "... progtwo"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

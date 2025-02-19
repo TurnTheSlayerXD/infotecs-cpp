@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrew/infotecs-cpp/progone
+CMAKE_SOURCE_DIR = /home/andrew/infotecs-cpp/progtwo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrew/infotecs-cpp/progone/build
+CMAKE_BINARY_DIR = /home/andrew/infotecs-cpp/progtwo/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/progone.dir/all
+all: CMakeFiles/progtwo.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/progone.dir/clean
+clean: CMakeFiles/progtwo.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/progone.dir
+# Target rules for target CMakeFiles/progtwo.dir
 
 # All Build rule for target.
-CMakeFiles/progone.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrew/infotecs-cpp/progone/build/CMakeFiles --progress-num=1,2 "Built target progone"
-.PHONY : CMakeFiles/progone.dir/all
+CMakeFiles/progtwo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrew/infotecs-cpp/progtwo/build/CMakeFiles --progress-num=1,2 "Built target progtwo"
+.PHONY : CMakeFiles/progtwo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/progone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progone/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/progone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progone/build/CMakeFiles 0
-.PHONY : CMakeFiles/progone.dir/rule
+CMakeFiles/progtwo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progtwo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/progtwo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andrew/infotecs-cpp/progtwo/build/CMakeFiles 0
+.PHONY : CMakeFiles/progtwo.dir/rule
 
 # Convenience name for target.
-progone: CMakeFiles/progone.dir/rule
-.PHONY : progone
+progtwo: CMakeFiles/progtwo.dir/rule
+.PHONY : progtwo
 
 # clean rule for target.
-CMakeFiles/progone.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progone.dir/build.make CMakeFiles/progone.dir/clean
-.PHONY : CMakeFiles/progone.dir/clean
+CMakeFiles/progtwo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/progtwo.dir/build.make CMakeFiles/progtwo.dir/clean
+.PHONY : CMakeFiles/progtwo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

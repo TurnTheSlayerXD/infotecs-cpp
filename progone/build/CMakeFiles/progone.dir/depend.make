@@ -1,2 +1,2 @@
-# Empty dependencies file for intern.
+# Empty dependencies file for progone.
 # This may be replaced when dependencies are built.

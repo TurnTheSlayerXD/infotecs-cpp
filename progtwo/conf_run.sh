@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-./conf.sh && ./build/intern
+./conf.sh && ./build/progtwo
