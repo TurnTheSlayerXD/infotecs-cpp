@@ -20,6 +20,12 @@ struct CharCount {
   CharCount &operator=(const CharCount &o) = default;
   CharCount &operator=(CharCount &&o) noexcept = default;
 
+  std::string to_string() const {
+    char buf[10];
+    snprintf(buf, 10, "%c|%d ", letter, count);
+    return std::string(buf);
+  }
+
   template <class C>
   static std::pair<CharCount, bool> from_string(const C &str) {
     const auto false_return = std::make_pair(CharCount{' ', 0}, false);
@@ -51,7 +57,7 @@ struct CharCount {
 };
 
 std::ostream &operator<<(std::ostream &str, const CharCount &d) {
-  str << d.letter << "|" << d.count << " ";
+  str << d.to_string();
   return str;
 }
 

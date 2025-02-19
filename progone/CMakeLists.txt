@@ -12,7 +12,7 @@ add_compile_options(-Wall -Wextra -Wpedantic)
 # add_compile_options(-fsanitize=thread)
 
 
-add_executable(progone src/main.cpp include/Buffer.h)
+add_executable(progone src/main.cpp include/Buffer.h include/ipc_interaction.h)
 
 
 target_include_directories(progone PRIVATE ${CMAKE_SOURCE_DIR}/include)

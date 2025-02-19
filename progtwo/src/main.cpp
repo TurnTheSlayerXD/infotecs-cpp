@@ -5,17 +5,20 @@
 #include <ranges>
 #include <vector>
 
+#include "ipc_interaction.h"
+
 namespace rng = std::ranges;
 
 int main() {
 
   for (;;) {
-    std::string input;
-    std::getline(std::cin, input);
 
-    auto is_space = [](const char &c) {
-      return std::isspace(static_cast<unsigned char>(c));
-    };
+    const auto [input, is_err] = ipc::receive_message();
+    if (is_err) {
+      continue;
+    }
+
+    auto is_space = [](const char &c) { return c == ' '; };
 
     const auto end = input.end();
 
@@ -32,7 +35,6 @@ int main() {
 
       if (!is_succ) {
         std::cerr << "Error while parsing substring: " << view << "\n";
-        assert(false && "!is_succ");
       } else {
         vec.push_back(obj);
       }

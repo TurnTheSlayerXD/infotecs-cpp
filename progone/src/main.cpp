@@ -11,6 +11,17 @@
 
 #include "CharCount.h"
 
+#include <sys/ipc.h>
+#include <sys/msg.h>
+#include <sys/types.h>
+
+#include <cstring>
+
+#include "ipc_interaction.h"
+
+namespace rng = std::ranges;
+namespace views = std::ranges::views;
+
 constexpr int alp_size = 52;
 
 using data_type = std::vector<CharCount>;
@@ -36,11 +47,11 @@ data_type count_entries(const auto &str) {
 }
 
 void thread_one(Buffer<data_type> &buf) {
-  namespace rng = std::ranges;
 
   for (;;) {
     std::string input;
-    std::cin >> input;
+
+    std::getline(std::cin, input);
 
     auto is_letter = [](char c) {
       return std::isalpha(static_cast<unsigned char>(c));
@@ -73,10 +84,11 @@ void thread_two(Buffer<data_type> &buf) {
       continue;
     }
 
-    for (const auto &d : data) {
-      std::cout << d;
+    std::string final;
+    for (const auto &o : data) {
+      final += o.to_string();
     }
-    std::cout << "\n";
+    ipc::send_message(final);
   }
 }
 
