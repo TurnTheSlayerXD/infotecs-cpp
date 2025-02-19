@@ -1,0 +1,3 @@
+/home/andrew/cpp-internship/build/CMakeFiles/intern.dir
+/home/andrew/cpp-internship/build/CMakeFiles/edit_cache.dir
+/home/andrew/cpp-internship/build/CMakeFiles/rebuild_cache.dir
