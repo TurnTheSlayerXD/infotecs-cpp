@@ -28,7 +28,6 @@ std::pair<std::string, bool> receive_message() {
 
   int msg_id;
   if ((msg_id = msgget(key_, 0666)) < 0) {
-    std::cerr << "Error: msgget\n";
     return false_return;
   }
 
@@ -44,7 +43,7 @@ std::pair<std::string, bool> receive_message() {
 bool send_message(const std::string &text) {
   int msg_id;
 
-  if ((msg_id = msgget(key_, IPC_CREAT | 0777)) < 0) {
+  if ((msg_id = msgget(key_, IPC_CREAT | 0666)) < 0) {
     std::cerr << "Error: msgget returned code" << msg_id << "\n";
     return false;
   }

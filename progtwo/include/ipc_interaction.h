@@ -28,7 +28,6 @@ std::pair<std::string, bool> receive_message() {
 
   int msg_id;
   if ((msg_id = msgget(key_, 0666)) < 0) {
-    std::cerr << "Error: msgget\n";
     return false_return;
   }
 
